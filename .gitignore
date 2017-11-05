@@ -1,4 +1,11 @@
 .DS_Store
+
+# build 
+./dist
+
+# mac  
+.DS_Store
+
 # Logs
 logs
 *.log
