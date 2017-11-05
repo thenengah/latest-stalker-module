@@ -1,4 +1,4 @@
-import latestStalker from '../src'
+import stalker from '../src'
 
 describe('missing file', () => {
 
@@ -6,10 +6,8 @@ describe('missing file', () => {
 
   beforeAll(async() => {
     try {
-      await latestStalker('package.missing')
-    } catch (_er) {
-      er = _er
-    }
+      await stalker('package.missing')
+    } catch (_er) { er = _er }
   })
 
   it('should fail', () =>

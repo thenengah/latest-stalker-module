@@ -1,11 +1,11 @@
-import latestStalker from '../src'
+import stalker from '../src'
 
 describe('good file', () => {
 
   let json
 
   beforeAll(async() =>
-    json = await latestStalker(`${__dirname}/../package.json`)
+    json = await stalker(`${__dirname}/../package.json`)
   )
 
   it('should have status', () =>

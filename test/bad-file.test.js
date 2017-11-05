@@ -1,11 +1,11 @@
-import latestStalker from '../src'
+import stalker from '../src'
 
 describe('bad file', () => {
 
   let json
 
   beforeAll(async() =>
-    json = await latestStalker(`${__dirname}/../README.md`)
+    json = await stalker(`${__dirname}/../README.md`)
   )
 
   it('should have correct status', () =>
