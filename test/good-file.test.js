@@ -1,4 +1,4 @@
-import { latestStalker } from '../src'
+import latestStalker from '../src'
 
 describe('good file', () => {
 

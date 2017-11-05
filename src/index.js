@@ -44,4 +44,5 @@ const latestStalker = async(file, options={}) => {
   )
 }
 
-export { latestStalker }
+module.exports = latestStalker
+// export default latestStalker
