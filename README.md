@@ -2,7 +2,7 @@
 
 Check which dependencies in your package are using the latest version.
 
-Checkokut the [demo](https://latest-stalker.herokuapp.com) and the [api](https://github.com/thenengah/latest-stalker-api).
+Checkout the [demo](https://latest-stalker.herokuapp.com) and the [api](https://github.com/thenengah/latest-stalker-api).
 
 ## Usage
 
