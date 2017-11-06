@@ -1,4 +1,4 @@
-# Latest Stalker (module)
+# Latest Stalker (Module)
 
 Check which dependencies in your package are using the latest version.
 
@@ -36,4 +36,14 @@ stalker('./package.json').then(json =>
 
 ## Contribute
 
-Fork this project, make your changes, and submit a pull request.
+To contribute fork this project, make your changes, and submit a pull request.
+
+### Development
+
+```text
+git clone https://github.com/thenengah/latest-stalker-module.git
+cd latest-stalker-module
+npm intall
+npm run build
+npm test 
+```
